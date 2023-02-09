@@ -1,5 +1,5 @@
 {% set name = "trame-client" %}
-{% set version = "2.5.1" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-client-{{ version }}.tar.gz
-  sha256: 67847141117a13f291b03b1db2851aba5ad4d42d636e495358eb1ad8a1e7604d
+  sha256: a1025662f38b502c5e80a94095f128f8ae9ea2bb4fa537bf0e01ede914e985e8
 
 build:
   noarch: python
