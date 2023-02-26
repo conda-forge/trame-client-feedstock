@@ -1,11 +1,11 @@
-About trame-client
-==================
+About trame-client-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trame-client-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/trame-client/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trame-client-feedstock/blob/main/LICENSE.txt)
 
 Summary: Internal client of trame
 
