@@ -1,5 +1,5 @@
 {% set name = "trame-client" %}
-{% set version = "3.7.1" %}
+{% set version = "3.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: bfc8a8ea11922181c845296fa5f5704724d01af30cf824168f1fd54a01eb1707
+  sha256: 84bc3cf6eaeb670a9daeb0bb7a5424f32539cc6e5c815b2245b71d39d484bed2
 
 build:
   noarch: python
@@ -21,6 +21,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
+    - trame-common
 
 test:
   imports:
