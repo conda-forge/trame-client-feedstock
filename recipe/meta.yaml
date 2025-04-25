@@ -19,9 +19,9 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
-    - trame-common
   run:
     - python >={{ python_min }}
+    - trame-common
 
 test:
   imports:
