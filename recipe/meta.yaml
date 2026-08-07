@@ -39,7 +39,6 @@ about:
   license: MIT
   license_file:
     - LICENSE
-    - trame_client/LICENSE
 
 extra:
   recipe-maintainers:
