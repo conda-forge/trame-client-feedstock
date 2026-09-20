@@ -1,5 +1,5 @@
 {% set name = "trame-client" %}
-{% set version = "4.0.1" %}
+{% set version = "4.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 5569c7f9fdbe4eb989e8ec9bf2e68e506bda16d703957deeadd5dad9e6877bb5
+  sha256: 63fbf128090ab334d432d0661a09a6b738027b26ac9be03f4497559fb839c70c
 
 build:
   noarch: python
